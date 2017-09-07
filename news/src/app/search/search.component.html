@@ -1,0 +1,13 @@
+<ul *ngIf="news">
+ <li *ngFor="let new of news">
+  <img class="img-fluid" src="{{new.urlToImage}}">
+
+   <a href="{{new.images}}">
+    {{ new.title }}
+  
+  </a>
+<br>
+ </li>
+ <br>
+
+</ul>
